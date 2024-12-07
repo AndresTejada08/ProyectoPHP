@@ -50,8 +50,13 @@ class App
                     new Errors();
                 }
             } else {
-                // Ejecutar metodo render por defecto del controlador
-                $controller->render();
+                // Validamos que exista un método por defecto -> render()
+                if (method_exists($controller, 'render')) {
+                    // Ejecuta metodo render por defecto del controlador
+                    $controller->render();
+                } else {
+                    new Errors();
+                }
             }
         } else {
             // Mostramos página del error
