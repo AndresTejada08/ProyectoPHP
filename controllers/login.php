@@ -3,6 +3,8 @@
 namespace Controllers;
 
 use Libs\Controller;
+use Libs\Model;
+use Models\LoginModel;
 
 class Login extends Controller
 {
@@ -13,7 +15,8 @@ class Login extends Controller
 
     public function render()
     {
-        $this->view->render('login/index');
+        $users = new LoginModel;
+        $this->view->render('login/index', ["users" => $users->getUsers()]);
     }
 
     public function edit($params)

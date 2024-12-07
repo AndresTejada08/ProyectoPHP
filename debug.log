@@ -171,3 +171,21 @@ Stack trace:
 #0 C:\xampp\htdocs\ProyectoPHP\index.php(23): App->__construct()
 #1 {main}
   thrown in C:\xampp\htdocs\ProyectoPHP\libs\app.php on line 26
+[07-Dec-2024 12:57:35 America/Lima] Database::connect()->SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[07-Dec-2024 12:57:35 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in C:\xampp\htdocs\ProyectoPHP\libs\model.php:21
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\models\loginModel.php(19): Libs\Model->query('SELECT * FROM u...')
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Models\LoginModel->getUsers()
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(17): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\libs\model.php on line 21
+[07-Dec-2024 13:02:25 America/Lima] Database::connect()->SQLSTATE[HY000] [1049] Unknown database 'sakila'
+[07-Dec-2024 13:02:25 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in C:\xampp\htdocs\ProyectoPHP\libs\model.php:21
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\models\loginModel.php(19): Libs\Model->query('SELECT * FROM u...')
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Models\LoginModel->getUsers()
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(17): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\libs\model.php on line 21
