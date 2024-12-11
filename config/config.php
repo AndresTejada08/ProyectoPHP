@@ -1,6 +1,6 @@
 <?php
 
-define('URL', 'http://localhost/Proyecto_PHP/');
+define('URL', 'http://localhost:8080/ProyectoPHP');
 define('HOST', 'localhost');
 define('DB','db_tienda');
 define('USER','root');

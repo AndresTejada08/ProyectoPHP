@@ -189,3 +189,85 @@ Stack trace:
 #3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
 #4 {main}
   thrown in C:\xampp\htdocs\ProyectoPHP\libs\model.php on line 21
+[10-Dec-2024 19:38:14 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Libs\View::showMessages() in C:\xampp\htdocs\ProyectoPHP\views\login\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\libs\view.php(12): require_once()
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Libs\View->render('login/index', Array)
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(17): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 8
+[10-Dec-2024 19:39:32 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Libs\View::showMessages() in C:\xampp\htdocs\ProyectoPHP\views\login\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\libs\view.php(12): require_once()
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Libs\View->render('login/index', Array)
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(17): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 8
+[10-Dec-2024 19:39:53 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Libs\View::showMessages() in C:\xampp\htdocs\ProyectoPHP\views\login\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\libs\view.php(12): require_once()
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Libs\View->render('login/index', Array)
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(17): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 8
+[10-Dec-2024 19:41:21 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Libs\View::showMessages() in C:\xampp\htdocs\ProyectoPHP\views\login\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\libs\view.php(12): require_once()
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Libs\View->render('login/index', Array)
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(17): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 8
+[10-Dec-2024 19:41:28 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Libs\View::showMessages() in C:\xampp\htdocs\ProyectoPHP\views\login\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\libs\view.php(12): require_once()
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Libs\View->render('login/index', Array)
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(56): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 8
+[10-Dec-2024 19:41:33 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Libs\View::showMessages() in C:\xampp\htdocs\ProyectoPHP\views\login\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\libs\view.php(12): require_once()
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Libs\View->render('login/index', Array)
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(56): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 8
+[10-Dec-2024 19:42:19 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Libs\View::showMessages() in C:\xampp\htdocs\ProyectoPHP\views\login\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\libs\view.php(12): require_once()
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Libs\View->render('login/index', Array)
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(56): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 8
+[10-Dec-2024 19:48:05 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Libs\View::showMessages() in C:\xampp\htdocs\ProyectoPHP\views\login\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\libs\view.php(12): require_once()
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Libs\View->render('login/index', Array)
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(17): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 8
+[10-Dec-2024 19:59:07 America/Lima] PHP Warning:  require_once(/views/layout/head.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 1
+[10-Dec-2024 19:59:07 America/Lima] PHP Fatal error:  Uncaught Error: Failed opening required '/views/layout/head.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ProyectoPHP\views\login\index.php:1
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\libs\view.php(12): require_once()
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Libs\View->render('login/index', Array)
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(17): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 1
+[10-Dec-2024 19:59:28 America/Lima] PHP Warning:  require_once(/views/layout/head.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 1
+[10-Dec-2024 19:59:28 America/Lima] PHP Fatal error:  Uncaught Error: Failed opening required '/views/layout/head.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ProyectoPHP\views\login\index.php:1
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoPHP\libs\view.php(12): require_once()
+#1 C:\xampp\htdocs\ProyectoPHP\controllers\login.php(19): Libs\View->render('login/index', Array)
+#2 C:\xampp\htdocs\ProyectoPHP\libs\app.php(56): Controllers\Login->render()
+#3 C:\xampp\htdocs\ProyectoPHP\index.php(24): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\ProyectoPHP\views\login\index.php on line 1

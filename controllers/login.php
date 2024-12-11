@@ -15,13 +15,14 @@ class Login extends Controller
 
     public function render()
     {
-        $users = new LoginModel;
-        $this->view->render('login/index', ["users" => $users->getUsers()]);
+        $this->view->render('login/index');
     }
 
-    public function edit($params)
+    public function auth()
     {
-        echo $params[0];
-        //var_dump($params);
+        if (!$this->existPOST(['email', 'password'])) {
+            $this->redirect('', []);
+        }
+
     }
 }
