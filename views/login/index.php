@@ -5,12 +5,14 @@
 <?php require_once 'views/layout/header.php' ?>
 
 <div>
+    <?php $this->showMessages() ?>
+
     <form action="<?= URL ?>/login/auth" method="post">
         <div>
-            <input type="email" name="email" placeholder="Correo" required>
+            <input type="email" name="email" placeholder="Correo">
         </div>
         <div>
-        <input type="password" name="password" placeholder="Contraseña" required>
+        <input type="password" name="password" placeholder="Contraseña">
         </div>
         <div>
             <button type="submit">Iniciar Sesión</button>
