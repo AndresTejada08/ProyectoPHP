@@ -26,6 +26,14 @@ class Login extends Controller
         if (!$this->existPOST(['email', 'password'])) {
             $this->redirect('login', ["error" => Errors::ERROR_LOGIN_AUTH_EMPTY]);
         }
+        
+        $login = new LoginModel();
+        $user = $login->login($_POST['email'], $_POST['password']);
 
+        if ($user != null) {
+            var_dump($user);
+        } else {
+            $this->redirect('', ["error" => Errors::ERROR_LOGIN_AUTH]);
+        }
     }
 }

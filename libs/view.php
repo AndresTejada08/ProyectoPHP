@@ -19,7 +19,7 @@ class View
 
     public function handleMessages()
     {
-        if (isset($_GET['success']) && isset($_GET['success'])) {
+        if (isset($_GET['success']) && isset($_GET['error'])) {
             #Nothing
         } elseif (isset($_GET['success'])) {
             $this->handleSuccess();
@@ -46,10 +46,10 @@ class View
     {
         if (isset($_GET['error'])) {
             $hash = $_GET['error'];
-            $success = new Errors();
+            $error = new Errors();
 
-            if ($success->exists($hash)) {
-                $this->d['error'] = $success->get($hash);
+            if ($error->exists($hash)) {
+                $this->d['error'] = $error->get($hash);
             } else {
                 $this->d['error'] = null;
             }

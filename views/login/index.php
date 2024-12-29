@@ -12,7 +12,7 @@
             <input type="email" name="email" placeholder="Correo">
         </div>
         <div>
-        <input type="password" name="password" placeholder="Contraseña">
+            <input type="password" name="password" placeholder="Contraseña">
         </div>
         <div>
             <button type="submit">Iniciar Sesión</button>
