@@ -19,7 +19,7 @@ class Controller
         $params = "";
 
         foreach ($messages as $key => $value) {
-            $data[] = "$key = $value";
+            $data[] = "$key=$value";
         }
 
         $params = join('&', $data);

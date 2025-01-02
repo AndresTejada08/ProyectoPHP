@@ -2,17 +2,15 @@
 
 namespace Controllers;
 
-use Libs\Controller;
 use Libs\Errors;
-use Libs\Model;
-use Libs\Success;
+use Libs\Session;
 use Models\LoginModel;
 
-class Login extends Controller
+class Login extends Session
 {
-    public function __construct()
+    public function __construct($url)
     {
-        parent::__construct();
+        parent::__construct($url);
     }
 
     public function render()
@@ -31,7 +29,8 @@ class Login extends Controller
         $user = $login->login($_POST['email'], $_POST['password']);
 
         if ($user != null) {
-            var_dump($user);
+            //var_dump($user);
+            $this->initializate($user);
         } else {
             $this->redirect('', ["error" => Errors::ERROR_LOGIN_AUTH]);
         }

@@ -13,7 +13,7 @@ class App
         
         // Si la url[0] está vacía se ejecuta un controlador por defecto
         if(empty($url[0])) {
-            $login = new Login();
+            $login = new Login('login');
             $login->render();
         }
 
@@ -23,7 +23,7 @@ class App
         if(file_exists($fileController)) {
             // Nombre del controlador con mayúsculas para ejecutar
             $nameController = "Controllers\\".ucfirst($url[0]);
-            $controller = new $nameController;
+            $controller = new $nameController($url[0]);
 
             // Valida que existe un metodo en la posicion url[1]
             if(isset($url[1])) {

@@ -58,6 +58,7 @@ class View
 
     public function showMessages()
     {
+        //echo "Error";
         $this->showSuccess();
         $this->showError();
     }
